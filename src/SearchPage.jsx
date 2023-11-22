@@ -36,8 +36,6 @@ function SearchPage() {
 
     }, 4000); 
 
-
-
   }
 
 
@@ -64,17 +62,7 @@ function SearchPage() {
   const [loginserverStatus, setloginserverStatus] = useState('');
 
 
-
-
   const [resetMessage, setresetMessage] = useState('')
-
-
-
-
-
-
-
-
 
 
   console.log("recive token  in FE >", token);
@@ -82,8 +70,6 @@ function SearchPage() {
   const handleRegUserInp = (e) => {
 
     setRegUserName(e.target.value);
-
-
 
   }
 
@@ -121,7 +107,9 @@ function SearchPage() {
 
   //REG btn
 
-  const handleRegBtn = async () => {
+  const handleRegBtn = async (e) => {
+
+    e.preventDefault();
 
     if (RegUserName == "" || RegEmailId == "" || RegPassword == "") {
 
@@ -437,7 +425,7 @@ function SearchPage() {
                     </Button>
                    <a className="mx-2 forget" onClick={handleForget} > Forget password? </a>  
                  </> ) :
-                  ( <Button className='m-3' variant="dark" type="submit" onClick={handleRegBtn}>Signup
+                  (<Button className='m-3' variant="dark" type="submit" onClick={(e) => { handleRegBtn(e) }}>Signup
                   </Button>
     
 ) 
