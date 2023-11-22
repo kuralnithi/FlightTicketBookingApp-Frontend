@@ -46,7 +46,8 @@ background: #83a4d4;
 background: -webkit-linear-gradient(to right, #b6fbff, #83a4d4); 
 background: linear-gradient(to right, #b6fbff, #83a4d4);
 
-        .bookhistit,.geninfohead{
+}
+.bookhistit,.geninfohead{
 color:white;
         font-family:Georgia, 'Times New Roman', Times, serif;
 font-weight: bold;
@@ -81,6 +82,7 @@ left: 5%;
 td{
 
 font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+
 
 @media (max-width:895px){
 .geninfo{
@@ -126,7 +128,6 @@ left: -15%;
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: white;
     position: relative;
-    right: -18%;
     font-weight: bold;
     font-size: x-large;
     width: 70%;
@@ -142,4 +143,3 @@ position: relative;
 
 }
 
-}
