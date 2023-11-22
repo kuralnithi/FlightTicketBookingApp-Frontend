@@ -1,0 +1,248 @@
+.App {
+background-image: url('https://r4.wallpaperflare.com/wallpaper/293/359/648/jet-technics-airplane-aircraft-wallpaper-290018cd81ca3d6b7617586f6001e6cd.jpg');
+  background-size: cover;
+  background-position: center;
+text-align: center;
+
+}
+.usericon:hover{
+cursor: pointer;
+box-shadow: 2px 2px 13px black;
+transition: 0.4s;
+
+}
+.headbox {
+  align-items: center;
+  justify-content: space-between;
+  background-color: aliceblue;
+  margin-top: 0%;
+width: 100%;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 20%;
+  background-color: #3498db;
+}
+
+.brand {
+
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 50px;
+
+}
+
+
+  .login {
+  background-color: antiquewhite;
+  margin-top: 2%;
+}
+
+
+.logoimg {
+  
+  margin-left: 20%;
+  height: 70px;
+
+}
+
+.loginbtn {
+  background-color: teal;
+  margin-right: 2%;
+}
+.login-box {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.logreg {
+  border-radius: 50%;
+}
+
+
+.usericon {
+
+  margin-left: -0%;
+  color: white;
+  background-color:#3498db;
+  border-radius: 48%;
+
+}
+
+main {
+
+  margin-top: 20px;
+}
+
+.search-box {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+footer {
+  background-color: #f8f9fa;
+  padding: 20px;
+  text-align: center;
+width: 100%;
+}
+
+.footer-links {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.footer-links li {
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+.explore-section {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.explore-section div {
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+.copyright-section {
+  margin-top: 20px;
+}
+
+.modal {
+
+  margin-top: 10%;
+}
+
+.xbtn {
+  position: relative;
+  left: 2px;
+  color: red;
+}
+
+.searchbox {
+  font-size: 20px;
+  font-weight:bolder;
+  width: 58%;
+  background: transparent;
+  box-shadow: 10px 10px 30px 4px black;
+  border-radius: 10%;
+  margin-top: 10%;
+  margin-bottom: 10%;
+backdrop-filter: blur(10px);
+}
+
+.searchbox label {
+color:papayawhip;
+margin-left: -80%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  font-weight:bolder;
+}
+
+.ocl{
+position: relative;
+left: 5%;
+}
+.travelers{
+
+margin-right: -22px;
+
+}
+.searchbox button {
+
+  margin-top: 5%;
+  margin-bottom: 5%;
+
+
+}
+
+.unlist{
+position:absolute;
+color:black;
+background-color:white;
+list-style-type: none;
+border-radius: 4%;
+backdrop-filter:blur(10px);
+left:1%;
+
+text-align: justify;
+}
+.unlist li{
+max-width: 100%;
+  list-style-type:none;
+
+  font-size: 70%;
+
+}
+.unlist li:hover{
+cursor:pointer;
+background-color:lightblue;
+}
+.searchbtn{
+  font-size: 20px;
+  font-weight: 800 ;
+  border-radius: 20%;
+}
+.searchbtn:active{
+  font-size: 20px;
+  font-weight: 800 ;
+  border-radius: 50%;
+  transition:1s;
+
+}
+a:hover{
+
+cursor: pointer;
+
+}
+@media (max-width: 890px) {
+
+
+
+  .headbox {
+    align-items: center;
+    justify-content: space-between;
+    background-color: aliceblue;
+
+  }
+
+  .brand {
+
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+
+  }
+
+
+    .searchbox label {
+color: papayawhip;
+      margin-left: -70%;
+      margin-top: 5%;
+      margin-bottom: 1%;
+      font-weight: bolder;
+    }
+  
+    .searchbox {
+      width: 80%;
+    }
+
+
+.foot{
+overflow: hidden;
+}
+
+}

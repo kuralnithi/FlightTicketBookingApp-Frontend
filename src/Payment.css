@@ -1,0 +1,66 @@
+    .cardmodal{
+padding-bottom: 48%;
+position:fixed;
+top: -130px;
+height: 110vh;
+}
+@media (max-width:912px){
+
+.cardmodal {
+        padding-bottom: 48%;
+        position: fixed;
+        top: -50px;
+        height: 110vh;
+    }
+
+}
+@media (max-width:541px){
+
+.cardmodal {
+        position: fixed;
+        top: -50px;
+        height: 110vh;
+    }
+
+}
+@media (max-width:415px){
+
+.cardmodal {
+        padding-bottom: 48%;
+        position: fixed;
+        top: -170px;
+        height: 110vh;
+    }
+
+}
+@media (max-width:391px){
+
+.cardmodal {
+        padding-bottom: 48%;
+        position: fixed;
+        top: -140px;
+        height: 110vh;
+    }
+
+}
+@media (max-width:376px){
+
+.cardmodal {
+        padding-bottom: 48%;
+        position: fixed;
+        top: -60px;
+        height: 110vh;
+    }
+
+}
+
+@media (max-width:375px){
+
+.cardmodal {
+        padding-bottom: 48%;
+        position: fixed;
+        top: -50px;
+        height: 110vh;
+    }
+
+}
