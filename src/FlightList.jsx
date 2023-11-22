@@ -20,7 +20,7 @@ const FlightList = () => {
   const navigate = useNavigate();
 
   const { myflight, setMyflight, cabinClass,setcabinClass, flights, setFlights
-      ,departureCity, setdepartureCity,arrivalCity, setarrivaleCity,departureDate, setDepartureDate,arrivalAirportCode, setarrivaleAirportCode,departureAirportCode, setdepartureAirportCode,passengercount, setPassengerCount,loggedin,setLoggedin,username, setUsername,emailid, setemailid
+      ,departureCity, setdepartureCity,arrivalCity, setarrivaleCity,departureDate, setDepartureDate,arrivalAirportCode, setarrivaleAirportCode,departureAirportCode, setdepartureAirportCode,passengercount, setPassengerCount,loggedin,setLoggedin,username, setUsername,emailid, setemailid,returnDate, setReturnDate
       } = useContext(myContext);
 
 
@@ -80,7 +80,7 @@ const FlightList = () => {
         setDepartureDate(flights[0]["departureDate"]); 
     
     if (flights[0]['returnDate'])  
-    setreturnDate(flights[0]['returnDate']); 
+    setReturnDate(flights[0]['returnDate']); 
     
     setPassengerCount(flights[0]['passengercount'])
         setdepartureAirportCode(flights[0]['departureAirportCode'])
