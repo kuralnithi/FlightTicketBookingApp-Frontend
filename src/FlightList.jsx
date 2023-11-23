@@ -546,7 +546,7 @@ const FlightList = () => {
           <div className='flightheadname'> {`${departureCity} (${departureAirportCode}) - ${arrivalCity} (${arrivalAirportCode}) `} </div>
           
           
-          <div className='date text-dark'> {`Depart - ${departureDate.slice(8)} ____  Return - ${departureDate.slice(8)} `} </div>
+          <div className='date text-dark'> {`Depart - ${departureDate.slice(8)} ____  Return - ${returnDate ? returnDate.slice(8):"none"  } `} </div>
 
           <div className='flightheadname  userflightlist'> passengers - {` ${passengercount}`} - {`${cabinClass}`}  </div>
           

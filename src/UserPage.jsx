@@ -129,7 +129,7 @@ navigate('/loading')
                     <div className="container-fluid text-center">
             <h1 className="geninfohead ">GENERAL INFORMATION</h1>
 
-            <div className="geninfo container-fluid ">                        
+            <div className="geninfo container-fluid mx-auto">                        
                             <table className='table table-bordered table-responsive'>
 
                                 <tr>
@@ -144,7 +144,7 @@ navigate('/loading')
                                 </table>
                         </div>
 
-                <div className="bookhistory">
+                <div className="bookhistory container">
                     
                 
 <h1 className="bookhistit">Booking history</h1>
@@ -153,21 +153,27 @@ navigate('/loading')
                             
  {  userList &&   userList.map((item,index) => {
         
-                let p = 1;
+                 let p = 1;
 
      
      
-     return <div key={index} className="userdoc text-center ">
-<div className="bk1">
+     return <div key={index} className="userdoc text-center container">
+         <h2 className='passdh'>
+            <table className='table'>
+             <tr>
+                 <th >Booked date </th>
+    
+              <th>{item.bookedDate}</th></tr>
+
+         </table>  
+         </h2>
+
+         <div className="bk1 mx-auto">
          
 <table className='table table-bordered table-responsive '>        
           
-                 <tr>
-                 <th>Booked date </th>
-    
-                     <th>{item.bookedDate}</th></tr>
 
-                 <tr>
+                 <tr >
     <td>Airline</td>
      <td>{item.airline} </td>
 </tr>
@@ -193,15 +199,18 @@ navigate('/loading')
 </tr>
                             
 <tr>
-    <td> Fligth number</td>
-    <td> {item.flightNumber}</td>
-</tr>
+   
+                     <td> Fligth number</td>
+   
+                     <td> {item.flightNumber}</td>
+
+                 </tr>
                             
-    
-                       </table>                          
-</div>
+       </table>                          
+
+         </div>
          <div className="passengerlist container ">
-                                                <h4 className='passdh'>PASSENGER DETAILS</h4>
+                            
 
              
 
@@ -213,8 +222,8 @@ navigate('/loading')
                                
 
                      
-                     return <div className=" col-6 container-fluid bk2 " key={index}>
-                         <h3>PASSENGER { p++}</h3>
+                     return <div className=" col-6 container-fluid bk2 mt-3" key={index}>
+                         <h4 className="passdhead" >PASSENGER { p++}</h4>
                          <table className='table table-bordered table-responsive bktab'>
 
             <tr>

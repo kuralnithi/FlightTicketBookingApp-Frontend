@@ -180,7 +180,6 @@ navigate('/')
         <div key={index} className="form-control passenger-detailscard row container-fluid ">
           <h3 className='pslisth'>Passenger {index + 1} </h3>
 
-          <label htmlFor="passengername" className='mt-3 psname'> passenger name</label>
 
           <input className='form-control col-md-3 col-12 mx-1 '
             required
@@ -240,7 +239,7 @@ max={130}
 
       {/* Display passenger details below seat selection */}
       <div className="selected-passenger-details">
-       <h1 className='passlisttitl1 selectseats mt-5  '> PASSENGER INFO</h1>
+       <h1 className='passlisttitl1 selectseats mt-5  '> PASSENGER INFO </h1>
         {passengerDetails.map((passenger, index) => (
           <div key={index} className="passenger-details-box">
             <h4 className='selectedpsh'>Passenger {index + 1} Details</h4>

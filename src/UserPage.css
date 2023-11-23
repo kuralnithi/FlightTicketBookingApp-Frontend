@@ -37,7 +37,6 @@ table th{
 }
 .bk2{
 
-margin: 3% 30%;
     background-color: transparent;
     border-radius: 5%;
     box-shadow: 5px 5px 10px black;
@@ -54,8 +53,9 @@ font-weight: bold;
     font-size:xx-large;
     background-color: lightgrey;
 }
-h3{
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+.passdhead{
+    margin-top: 2%;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 font-weight: bold;
 
 }
@@ -63,18 +63,13 @@ font-weight: bold;
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: white;
     position: relative;
-    right: -28%;
-    font-weight: bold;
+    font-weight: bold;     
     font-size: x-large;
-    width: 40%;
-background-color: lightgray;
-border-radius: 5%;
+    background-color: lightgray;
+    border-radius: 5%;
 }
 
 .passdetails{
-
-position: relative;
-left: 5%;
 
 }
 
@@ -87,16 +82,12 @@ font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
 @media (max-width:895px){
 .geninfo{
 
-
-    width: 80%;
-    position: relative;
+width: 60%;
     
-        left: -25%;
 font-size: 12px;
 }
 
 .bk1 {
-    margin: 3% 30%;
     background-color: transparent;
     border-radius: 5%;
     box-shadow: 5px 5px 10px black;
@@ -105,9 +96,7 @@ font-size: 12px;
     background: -webkit-linear-gradient(to right, #b6fbff, #83a4d4);
     background: linear-gradient(to right, #b6fbff, #83a4d4);
     
-    position: relative;
 
-    left: -15%; 
 }
 .bk2 {
 
@@ -130,7 +119,6 @@ left: -15%;
     position: relative;
     font-weight: bold;
     font-size: x-large;
-    width: 70%;
     background-color: lightgray;
     border-radius: 5%;
 }
