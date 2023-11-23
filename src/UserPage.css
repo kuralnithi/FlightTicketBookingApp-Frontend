@@ -31,7 +31,7 @@ background: #83a4d4;
 
 }
 
-table th{
+.userpagemain table th{
 
     border-top: none;
 }
@@ -64,7 +64,7 @@ padding-bottom: 2%;
     border: 5px dashed lightgray;
 
 }
-table tr{
+.userpagemain tr{
 
 border-color:transparent;
 

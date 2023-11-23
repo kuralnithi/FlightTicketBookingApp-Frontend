@@ -126,7 +126,7 @@ navigate('/loading')
                 </header>
                 
 <main>
-                    <div className="container-fluid text-center">
+                    <div className="userpagemain container-fluid text-center">
             <h1 className="geninfohead ">GENERAL INFORMATION</h1>
 
             <div className="geninfo container-fluid mx-auto">                        

@@ -41,12 +41,13 @@ const PaymentForm = () => {
           onFocus={handleInputFocus}
    required      />
     
-        <input className='form-control mt-3'
+        <input
+          className='form-control mt-3'
           type="number"
           name="number"
           max={9999999999999999}
           placeholder="Card number"
-          value={state.number<9999999999999999?state.number:999999999999999}
+          value={state.number < 9999999999999999 ? state.number : 999999999999999}
           onChange={handleInputChange}
           onFocus={handleInputFocus}
           required
