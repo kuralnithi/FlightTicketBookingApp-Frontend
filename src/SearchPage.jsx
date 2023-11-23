@@ -435,10 +435,10 @@ function SearchPage() {
         </Modal.Body>
         <Modal.Footer>
 
-            { <p className='logmsg bg-warning'>{regStatus}</p>}
-            {<p className='logmsg bg-warning'>{loginStatus}</p>}
-            {<p className='logmsg bg-warning'>{loginserverStatus}</p>}
-            {<p className='logmsg bg-warning'>{resetMessage}</p>}
+            { <p className='logmsg'>{regStatus}</p>}
+            {<p className='logmsg'>{loginStatus}</p>}
+            {<p className='logmsg'>{loginserverStatus}</p>}
+            {<p className='logmsg'>{resetMessage}</p>}
 
         </Modal.Footer>
       </Modal>

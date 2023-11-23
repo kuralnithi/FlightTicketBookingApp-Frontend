@@ -127,7 +127,15 @@ width: 100%;
 
   margin-top: 10%;
 }
-
+.logmsg{
+  text-align: center;
+margin: auto;
+color: #f8f9fa;
+width: 100%;
+  border-radius: 50%;
+box-shadow: 10px 10px 10px;
+  background-color:cornflowerblue;
+}
 .xbtn {
   position: relative;
   left: 2px;
