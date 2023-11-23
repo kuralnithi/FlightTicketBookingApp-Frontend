@@ -144,7 +144,7 @@ navigate('/loading')
                                 </table>
                         </div>
 
-                <div className="bookhistory container">
+                <div className="bookhistory containerfluid">
                     
                 
 <h1 className="bookhistit">Booking history</h1>
@@ -260,9 +260,6 @@ navigate('/loading')
 </div>
 
                                     </div>
-<hr />                                    
-<hr />                                    
-<hr />                                    
                                 </div>
 
                                 

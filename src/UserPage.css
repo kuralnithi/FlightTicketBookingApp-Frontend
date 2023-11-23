@@ -53,6 +53,23 @@ font-weight: bold;
     font-size:xx-large;
     background-color: lightgrey;
 }
+.bookhistory{
+
+box-shadow: 10px 10px 10px black;
+padding-bottom: 2%;
+}
+.userdoc{
+margin-top: 2%;
+padding-top: 1%;
+padding-bottom: 2%;
+    border: 5px dashed lightgray;
+
+}
+table tr{
+
+border-color:transparent;
+
+}
 .passdhead{
     margin-top: 2%;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
