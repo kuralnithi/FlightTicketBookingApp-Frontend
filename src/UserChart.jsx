@@ -55,8 +55,8 @@ console.log("error in fetching user details",error);
               label: 'Number of passengers travelled on this date',
               data: userList.map(doc=>doc.passengercount),
               backgroundColor: [
-                'rgba(155, 255, 155 )','rgba(255, 155, 155 )','rgba(255, 255, 155 )','rgba(255, 255, 215 )'             ],
-              borderWidth: 1,
+                'rgba(155, 255, 155 )','rgba(255, 155, 155 )','rgba(255, 255, 155 )','rgba(255, 255, 215 )'  ],
+              borderWidth: 2,
             }
         ]
 }
@@ -112,7 +112,7 @@ console.log("error in fetching user details",error);
           plugins: {
             title: {
               display: true,
-              text: "NO. OF PASSENGERS TRAVELLED "
+              text: "NO. OF PASSENGERS TRAVELLED ON DATE"
             },
             legend: {
               display: false

@@ -1,8 +1,8 @@
 
-
 .geninfo {
 
-margin: 3% 30%;
+margin: 5% 30%;
+padding: 1%;
 background-color: transparent;
 border-radius:10%;
 box-shadow: 5px 5px 10px black;
@@ -16,7 +16,7 @@ background: #83a4d4;
 
 .geninfo table{
 
-width:80%;
+    width:80%;
  margin-left:7%;
 }
 .bk1{
@@ -54,8 +54,7 @@ font-weight: bold;
     background-color: lightgrey;
 }
 .bookhistory{
-
-box-shadow: 10px 10px 10px black;
+border: 2px dashed lightblue;
 padding-bottom: 2%;
 }
 .userdoc{
