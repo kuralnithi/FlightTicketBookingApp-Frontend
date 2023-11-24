@@ -24,7 +24,7 @@ margin: 3% 30%;
     background-color: transparent;
     border-radius: 10%;
     box-shadow: 5px 5px 10px black;
-    width: 35%;
+    width: 45%;
 background: #83a4d4;
     background: -webkit-linear-gradient(to right, #b6fbff, #83a4d4);
     background: linear-gradient(to right, #b6fbff, #83a4d4);
@@ -40,7 +40,7 @@ background: #83a4d4;
     background-color: transparent;
     border-radius: 5%;
     box-shadow: 5px 5px 10px black;
-    width: 25%;
+    width: 39%;
 background: #83a4d4;  
 background: -webkit-linear-gradient(to right, #b6fbff, #83a4d4); 
 background: linear-gradient(to right, #b6fbff, #83a4d4);
@@ -143,3 +143,12 @@ position: relative;
 
 }
 
+@media (max-width:400px){
+
+.bk2{
+margin-left:20%;
+    width: 100%;
+
+}
+
+}
