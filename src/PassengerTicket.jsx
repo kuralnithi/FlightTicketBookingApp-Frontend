@@ -13,9 +13,8 @@ const PassengerTicket = () => {
 
   const navigate = useNavigate();
 
-    var date = new Date();
-
-  setBookedDate(`${date.getDate()}-${date.getMonth()}-${date.getFullYear()}`);
+    var date = new Date;
+  // setBookedDate(`${date.getDate()}-${date.getMonth()+1}-${date.getFullYear()}`);
     console.log(myflight);
 
 
@@ -32,7 +31,9 @@ const updateUserBooking=async()=>{
   
   try {
   
-  await setBookedDate(`${date.getDate()}-${date.getMonth()}-${date.getFullYear()}`);
+  await setBookedDate(`${date.getDate()}-${date.getMonth()+1}-${date.getFullYear()}`);
+
+    console.log("BsD", bookedDate);
   
   const postBookingDetails = await axios.post('https://fligthback.onrender.com/api/userBooking', {
 
@@ -82,7 +83,7 @@ console.log("userbook responce>>>",userBookingResponce);
   
     const ticketRef = useRef(null);
 
-    const downloadPDF = () => {
+    const downloadPDF = () => { 
     const ticket = ticketRef.current;
 
     html2canvas(ticket).then((canvas) => {
@@ -121,10 +122,10 @@ console.log("userbook responce>>>",userBookingResponce);
   //date
 
 
-    console.log(`${date.getDate()}-${date.getMonth()}-${date.getFullYear()}`);  
+    // console.log(`${date.getDate()}-${date.getMonth()}-${date.getFullYear()}`);  
     
-  setBookedDate(`${date.getDate()}-${date.getMonth()}-${date.getFullYear()}`);
-    console.log(myflight);
+  // setBookedDate(`${date.getDate()}-${date.getMonth()}-${date.getFullYear()}`);
+    console.log("myflight", myflight);
   
   const handleBack =()=>{
     
@@ -177,8 +178,7 @@ console.log("userbook responce>>>",userBookingResponce);
        
               <h1 className='mhead'> PASSENGER AND TICKET INFORMATION</h1>
        
-       
-                        {passengerDetails.map((passenger, index) => (
+              {passengerDetails.map((passenger, index) => (
 
 
               <div key={index}>
@@ -194,7 +194,7 @@ console.log("userbook responce>>>",userBookingResponce);
                       </tr>
                       <tr>
                         <td >ISSUED BY DATE</td>
-                          <th >{`${date.getDate()}-${date.getMonth()}-${date.getFullYear()}`}</th>
+                          <th >{`${date.getDate()}-${date.getMonth()+1}-${date.getFullYear()}`}</th>
                       </tr>
        </table>           
   
