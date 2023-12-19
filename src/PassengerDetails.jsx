@@ -105,7 +105,7 @@ const handleSeatSelection = (seatNumber) => {
     return seats;
   };
 
-  const renderGroupSeats = (group) => {
+    const renderGroupSeats = (group) => {
     const rows = 5;
     const cols = 3;
     const groupSeats = [];
@@ -234,12 +234,12 @@ max={130}
 
       {/* Seat selection */}
       <div className="seat-container container-fluid ">
-        <h3 className='selectseats'>Select Seats</h3>
+        <h3 className='selectseats'>Select Seats </h3>
         <div className="seats ">{renderSeats()}</div>
       </div>
 
       {/* Display passenger details below seat selection */}
-      <div className="selected-passenger-details">
+      <div className="selected-passenger-details" >
        <h1 className='passlisttitl1 selectseats mt-5  '> PASSENGER INFO </h1>
         {passengerDetails.map((passenger, index) => (
           <div key={index} className="passenger-details-box">
@@ -260,7 +260,7 @@ max={130}
       </div>
 
 
-      <PaymentModal show={showModal} handleClose={handleCloseModal} />
+      <PaymentModal show={showModal} handleClose={handleCloseModal} /> 
 
       
     </div>
