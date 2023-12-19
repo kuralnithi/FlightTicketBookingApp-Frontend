@@ -215,7 +215,7 @@ console.log("userbook responce>>>",userBookingResponce);
                                              </tr>
                                                                 <tr>
                                             
-                  <td>{myflight.flightNumber} <br /> CONFIRMED </td>
+                    <td>{myflight.flightNumber} <br /> CONFIRMED </td>
                                                                     <td>{myflight.departureDate }</td>
                                                                     <td>{ myflight.departureAirport}</td>
                                                                     <td>{myflight.departureDate }</td>

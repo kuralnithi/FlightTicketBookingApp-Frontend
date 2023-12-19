@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Modal, Button, Form } from 'react-bootstrap';
+import Cards from 'react-credit-cards-2';
 import PaymentForm from './PaymentForm';
 import './Payment.css'
 import { useNavigate } from 'react-router-dom';
@@ -9,6 +10,15 @@ const PaymentModal = ({ show, handleClose }) => {
 
 const navigate = useNavigate()
 
+    const [cardDetails, setCardDetails] = useState({
+    cardNumber: '',
+    cvv: '',
+  });
+
+  const handleInputChange = (e) => {
+    const { name, value } = e.target;
+    setCardDetails({ ...cardDetails, [name]: value });
+  };
 
   const handlePaymentConfirmation = () => {
     console.log('Payment details:', cardDetails);
@@ -65,7 +75,7 @@ const navigate = useNavigate()
         Close
       </Button>
       <Button  type="button"  data-toggle="modal" data-target="#success_tic" >
-      Pay
+      Confirm Payment
        </Button>
 
         </Modal.Footer>

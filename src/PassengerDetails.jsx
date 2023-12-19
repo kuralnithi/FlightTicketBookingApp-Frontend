@@ -199,7 +199,7 @@ max={130}
             value={passenger.age}
             onChange={(e) => handlePassengerDetailsChange(index, 'age', e.target.value)}
           />
-          <select className='form-select col-md-3 col-12 mt-4 mx-1 '
+          <select className='form-select col-md-3 col-12 mt-4 mx-1'
             value={passenger.gender}
            required
             onChange={(e) => handlePassengerDetailsChange(index, 'gender', e.target.value)}
