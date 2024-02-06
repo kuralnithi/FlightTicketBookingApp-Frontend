@@ -39,7 +39,7 @@ function SearchPage() {
   }
 
 
-///////////REG LOG IN/////////////////////////
+      ///////////REG LOG IN/////////////////////////
 
 
   const [RegUserName, setRegUserName] = useState("");
@@ -55,15 +55,12 @@ function SearchPage() {
 
   const [userdetails, setUserdetails] = useState("");
 
-
   const [regStatus, setRgStatus] = useState('');
   const [loginStatus, setloginStatus] = useState('');
 
   const [loginserverStatus, setloginserverStatus] = useState('');
 
-
   const [resetMessage, setresetMessage] = useState('')
-
 
   console.log("recive token  in FE >", token);
 
@@ -169,15 +166,9 @@ function SearchPage() {
   }
 
 
-
-
-
-
-
   const handleLoginBtn = async (e) => {
 
     e.preventDefault();
-
 
     if (LoginEmailid == "" || LoginPassword == "") {
 
@@ -337,18 +328,21 @@ function SearchPage() {
       {
 
         console.log("user found__Log in auth successfull",data);
-       setUserdetails(data);
-      setUsername(data.username);
-        setemailid(data.emailid)
-        setLoggedin(true);
+        
+                                          setUserdetails(data);
+                                          setUsername(data.username);
+                                          setemailid(data.emailid)
+                                          setLoggedin(true);
 
-  
+                                    
     
       }
 
 
     } catch (error) {
+
       console.log('errorrr>>>>>', error);
+    
     }
   }
         console.log("user name>>",username);
@@ -404,7 +398,7 @@ function SearchPage() {
               <Form.Control type="email" value={RegEmailId} onChange={handleRegEmailInp} placeholder="Enter email" />
               <Form.Text className="text-muted">We'll never share your email with anyone else.</Form.Text>
             </Form.Group>}
-           { showSignup &&
+           { showSignup &&  
             <Form.Group controlId="formBasicPassword">
               <Form.Label>Password</Form.Label>
               <Form.Control type="password"  value={RegPassword} onChange={handleRegPasswordInp} placeholder="Password" />

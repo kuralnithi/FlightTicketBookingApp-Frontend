@@ -78,10 +78,10 @@ console.log("userbook responce>>>",userBookingResponce);
 }
 
 
+
+   console.log(passengerDetails);
   
-    console.log(passengerDetails);
-  
-    const ticketRef = useRef(null);
+   const ticketRef = useRef(null);
 
     const downloadPDF = () => { 
     const ticket = ticketRef.current;
