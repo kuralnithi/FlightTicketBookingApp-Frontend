@@ -3,12 +3,13 @@ import Cards from 'react-credit-cards-2';
 import 'react-credit-cards-2/dist/es/styles-compiled.css'
 const PaymentForm = () => {
   const [state, setState] = useState({
+    
     name: '',
     number: +'' ,
     expiry: +'',
     cvc: +'',
-      focus: '',
-      
+    focus: '',
+
   });
 
   const handleInputChange = (evt) => {
@@ -71,7 +72,6 @@ const PaymentForm = () => {
           onChange={handleInputChange}
           onFocus={handleInputFocus}
           required
-      
         />
       </form>
 

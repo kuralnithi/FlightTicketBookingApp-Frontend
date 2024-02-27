@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import './ResetPasswordpage.css'
+import '../Css/ResetPasswordpage.css'
 function ResetPasswordpage(props) {
 
     const [token, setToken] = useState('');
@@ -127,13 +127,11 @@ function ResetPasswordpage(props) {
 
         setTimeout(() => {
 
-  navigate('/loading')
-
     setTimeout(() => {
     
       navigate('/search')
 
-    }, 3000); 
+    }, 0); 
 
 
         }, 3000)

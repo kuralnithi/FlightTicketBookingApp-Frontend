@@ -4,6 +4,38 @@ left: 20%;
     border-radius: 50%;
 }
 
+.headbox {
+    align-items: center;
+    justify-content: space-between;
+    background-color: aliceblue;
+    margin-top: 0%;
+  width: 100%;  
+  }
+  .logo {
+    display: flex;
+    align-items: center;
+    gap: 20%;
+    background-color: #3498db;
+  }
+
+  main {
+
+    margin-top: 20px;
+  }
+  
+  .brand {
+
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+  
+  }
+  
+.logoimg {
+  
+    margin-left: 20%;
+    height: 70px;
+  
+  }
 .logoimg:hover{
     cursor: pointer;
         box-shadow: 2px 2px 13px black;
@@ -30,10 +62,6 @@ width: 100dvw;
 }
 
 
-.headbox{
-    background-color:whitesmoke;
-width: 110%;
-}
 
 .flightlisthead{
     display: flex;
@@ -45,6 +73,8 @@ width: 110%;
     box-shadow: 10px 10px 20px black;
 width: 100%;
 }
+
+
 .flightheadname{ 
 
 background-color:lightgray;
@@ -52,6 +82,7 @@ color:black;
 margin: 6px;
 padding: 5px 10px;
 border-radius: 10px;
+
 }
 
 
