@@ -48,7 +48,7 @@ const PaymentForm = () => {
           name="number"
           max={9999999999999999}
           placeholder="Card number"
-          value={state.number < 9999999999999999 ? state.number : 999999999999999}
+          value={state.number < 9999999999999999 ? state.number : 0}
           onChange={handleInputChange}
           onFocus={handleInputFocus}
           required
